@@ -1,6 +1,8 @@
+/*This body rule is mainly for the backgroud image and font*/
 body{
     background-image: url(bigbang_BG_IMG_2.png);
     background-size: cover;
+    background-position: center;
     margin:0%;
     font-family: BodyFont;
     color: #E6E6E6;
@@ -18,7 +20,7 @@ body{
 .footer{
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #0E1F2F;
     width: 100%;
@@ -53,19 +55,21 @@ body{
     font-size: 40px;
 }
 
-#TopButton{
-    font-size: 18px;
-}
-
 /* For button customization and for the hover animation line under the button when hovering the cursor over it*/
-button{
-    color: #85FFC7;
-    background-color: #3C6862;
-    font-size: 28px;
+.button{
+    display: inline-block;
     padding: .4%;
+    background-color: #3C6862;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+    font-size: 28px;
     font-family: HeaderFont;
 }
-button::after{
+
+.button::after{
     content: '';
     height: 2px;
     width: 0%;
@@ -73,14 +77,14 @@ button::after{
     display: block;
     transition: .4s ease-in-out;
 }
-button:hover::after{
+.button:hover::after{
     content:'';
     height: 4px;
     width: 100%;
     background-color: white;
     display: block;
 }
-button:hover{
+.button:hover{
     background-color: #599B93;
 }
 
@@ -110,5 +114,27 @@ h1,h2,h3,h4{
 }
 
 p{
+    font-size: 18px;
+}
+
+table, td{
+    font-family: BodyFont;
+    border: 2px #ffff solid;
+    border-radius: 2%;
+    margin: auto;
+    padding: .2%;
+}
+
+img{
+    max-width: 100%;
+}
+
+ol{
+    margin-left: 42%;
+    text-align: left;
     font-size: 20px;
+}
+
+li:hover{
+    color: gray;
 }
