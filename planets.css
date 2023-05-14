@@ -2,6 +2,7 @@
 body{
     background-image: url(Planets_BG_IMG.png);
     background-size: cover;
+    background-position: center;
     margin:0%;
     font-family: BodyFont;
     color: #E6E6E6;
@@ -30,6 +31,7 @@ body{
 
 .body{
     margin-right: 2%;
+    margin-left: 50%;
     text-align: right;
     padding-bottom: 10%;
 }
@@ -139,6 +141,8 @@ table, td{
 
 img{
     max-width: 100%;
+    border: 5px solid #ffff;
+    border-radius: 5%;
 }
 
 ul{

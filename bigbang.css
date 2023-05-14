@@ -35,6 +35,10 @@ body{
     padding-bottom: 10%;
 }
 
+.tableofcontentslistitems:hover{
+    color: gray;
+}
+
 /* All id selectors*/
 #cssvalidator{
     margin-left: auto;
@@ -55,6 +59,13 @@ body{
     font-size: 40px;
 }
 
+#TableOfContents{
+    margin-left: 42%;
+    text-align: left;
+    font-size: 20px;
+}
+
+
 /* For button customization and for the hover animation line under the button when hovering the cursor over it*/
 .button{
     display: inline-block;
@@ -68,7 +79,6 @@ body{
     font-size: 28px;
     font-family: HeaderFont;
 }
-
 .button::after{
     content: '';
     height: 2px;
@@ -130,11 +140,7 @@ img{
 }
 
 ol{
-    margin-left: 42%;
+    margin-left: 15%;
     text-align: left;
     font-size: 20px;
-}
-
-li:hover{
-    color: gray;
 }
