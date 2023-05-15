@@ -67,7 +67,14 @@ body{
     list-style-position: inside;
 }
 
+#link{
+    text-decoration: underline;
+    color: #FF8552 ;
 
+}
+#link:hover{
+    color: #FFC6AD;
+}
 
 /* For button customization and for the hover animation line under the button when hovering the cursor over it*/
 .button{
