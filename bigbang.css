@@ -66,7 +66,7 @@ body{
 }
 
 
-/* For button customization and for the hover animation line under the button when hovering the cursor over it*/
+/* For link customization to make it look like a button and for the hover animation line under the link/button when hovering the cursor over it*/
 .button{
     display: inline-block;
     padding: .4%;
